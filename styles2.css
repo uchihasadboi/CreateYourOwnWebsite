@@ -6,13 +6,21 @@ body {
     background-size: 100%;
 }
 #container {
-    width:50em;
-    height: 55em;
+    width:100em;
+    height:54.6em;
     margin-left: auto;
     margin-right: auto;
 }
+aside {
+    width:30%;
+    float:left;
+    text-align: left;
+}
 main {
-    width: auto;
+    width:50%;
+    height: 75%;
+    float:right;
+    text-align:right;
 }
 h1
 {
@@ -20,30 +28,19 @@ h1
    font-variant: small-caps; 
    text-align: center;
 }
+#p2 {
+    text-align: center;
+    margin-top: 1em;
+}
 ul {
     list-style: none;
 }
 nav {
     display:block;
     text-align: center;
-    padding-top: 22em;
+    padding-top: 44.5em;
     margin-right:2.5em;
 }
-#p1 {
-    text-align: center;
-    padding: 1em;
-    margin: 0 7em;
-}
-#p2 {
-    text-align: center;
-}
-#img1 {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-}
-
 ul li :hover {
     font-style: italic;
 }
