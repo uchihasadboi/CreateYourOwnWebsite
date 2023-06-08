@@ -1,0 +1,11 @@
+"On your Helpful Tools page the navigation menu moves to the bottom of the screen. On a lot of screen sizes this means you have to scroll down to see the navigation menu which may be confusing for users."
+    I forgot to move the other nav menus to the top of the page to match the home screen and it was something I wanted to do anyways, so this was a great reminder to do that. I can use my home page as a template to set up the other pages in the same fashion.
+
+"The links on the Helpful Tools page are a purple color over a light blue/pink background making them a little difficult to read. 
+Especially the navigation links at the bottom of the page. I think making the font larger for the navigation links would help with readability and help the user find the navigation bar easier."
+    I wanted to match the links throughout the pages so do this I'm going to steal the css code I used for the home page links and re-use it. I want the pages to look uniform and professional.
+
+"On the home page there is a block of text explaining the site's purpose. 
+The text displays properly on very wide screens, but on screens less than ~1400px, the text is formatted into a narrow column that often shows only one word per line making it very difficult to read."
+    I'm having trouble figuring out the best way to set up my webiste, and I need to make my media queries, but I've been going back and forth about how I want the layout to look.
+    I will be continuing to work on this as I format my webiste the way I want. For this week, I want at least the text on the homepage to be fluid and functional in multiple layouts. 

@@ -1,4 +1,4 @@
-body {
+html {
     font-family: "Cherry Bomb One",sans-serif;
     color: #2f0f3e;
     border: .25em solid #2ba781;
@@ -26,9 +26,10 @@ main {
 }
 h1
 {
-   color:#8a2be2; 
+   color:#2f0f3e;
    font-variant: small-caps; 
    text-align: center;
+   font-size: 300%;
 }
 #p2 {
     text-align: center;
@@ -38,7 +39,6 @@ h1
     list-style: none;
     padding: 1em 0;
     text-align: center;
-    margin-top: 80%;
 }
 #navmenu ul li {
     display:inline;
@@ -60,4 +60,28 @@ a :visited {
 }
 #headerspace {
     margin-top: 5em;
+}
+footer {
+    margin-top: 50%;
+}
+footer nav {
+    display:inline;
+    text-align: center;
+}
+#navmenu a[href] {
+    color: #2f0f3e;
+    font-size: 150%;
+}
+#top ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: .5em;
+    text-align: center;
+}
+#top a[href] {
+    color: #2f0f3e;
+}
+a[href] {
+    text-decoration: none;
 }

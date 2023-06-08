@@ -1,9 +1,10 @@
-body {
+html {
     font-family: "Cherry Bomb One",sans-serif;
     color: #2f0f3e;
     border: .25em solid #2ba781;
     background-image: radial-gradient(circle, #f391d2 39%, #76d6e2 96%);
     background-size: 100%;
+    margin: .2em;
 }
 #container {
     width:100%;
@@ -18,12 +19,11 @@ main {
     list-style: none;
     padding: 1em 0;
     text-align: center;
-    margin-top: 80%;
+    font-size: 150%;
 }
 #navmenu ul li {
     display:inline;
     text-align: center;
-    padding-top: 1em;
     margin-right:2.5em;
 }
 h1 {
@@ -31,16 +31,61 @@ h1 {
    font-variant: small-caps; 
    text-align: center;
    font-size: 300%;
+   margin-right: .8em;
 }
 h2 {
    color:#8a2be2; 
-   font-variant: small-caps; 
+   font-variant: small-caps;
+   font-size: 200%;
+   margin-right: 1em;
    text-align: center;
 }
-#img1 {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    max-width: 100%;
+ul li :hover {
+    font-style: italic;
+}
+#top ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: .5em;
+    text-align: center;
+    margin-top: 4%;
+}
+#p2 {
+    text-align: center;
+}
+a[href] {
+    color:#2f0f3e;
+    text-decoration: none;
+}
+.list {
+    margin-right: 4em;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.list ul{
+    list-style: none;
+    color:#8a2be2;
+}
+.text {
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.hardcore {
+    color: #2f0f3e
+}
+.pokeball {
+    color: #2f0f3e;
+}
+
+.list ul li i {
+    color: #2f0f3e;
+}
+#underline {
+    color:#2f0f3e;
+}
+#faq {
+    margin-top: 2em;
 }
