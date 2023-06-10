@@ -26,9 +26,8 @@ main {
 }
 h1
 {
-   color:#2f0f3e;
+   color: #8a2be2;
    font-variant: small-caps; 
-   text-align: center;
    font-size: 300%;
 }
 #p2 {
@@ -39,12 +38,15 @@ h1
     list-style: none;
     padding: 1em 0;
     text-align: center;
+
 }
 #navmenu ul li {
     display:inline;
     text-align: center;
     padding-top: 1em;
     margin-right:2.5em;
+    font-size: 100%;
+    font-weight: bolder;
 }
 ul li :hover {
     font-style: italic;
@@ -84,4 +86,12 @@ footer nav {
 }
 a[href] {
     text-decoration: none;
+}
+#gif1 {
+    display: block;
+    width: 5%;
+    margin-left: 38%;
+    margin-right: auto;
+    max-width: 100%;
+    float: left;
 }

@@ -1,9 +1,10 @@
-body {
+html {
     font-family: "Cherry Bomb One",sans-serif;
     color: #2f0f3e;
     border: .25em solid #2ba781;
     background-image: radial-gradient(circle, #f391d2 39%, #76d6e2 96%);
     background-size: 100%;
+    margin: .2em;
 }
 #container {
     width:100%;
@@ -18,18 +19,19 @@ main {
     list-style: none;
     padding: 1em 0;
     text-align: center;
-    margin-top: 80%;
+    margin-left: 2em;
+    font-size: 140%;
 }
 #navmenu ul li {
     display:inline;
     text-align: center;
     padding-top: 1em;
     margin-right:2.5em;
+    font-weight: bolder;
 }
 h1 {
    color:#8a2be2; 
    font-variant: small-caps; 
-   text-align: center;
    font-size: 300%;
 }
 h2 {
@@ -43,4 +45,31 @@ h2 {
     margin-right: auto;
     margin-top: 1em;
     max-width: 100%;
+}
+#top ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: .5em;
+    text-align: center;
+}
+#p2 {
+    text-align: center;
+}
+a[href] {
+    width: 90%;
+    color: #2f0f3e;
+    font-weight: bolder;
+    text-decoration: none;
+}
+ul li :hover {
+    font-style: italic;
+}
+#gif1 {
+    display: block;
+    width: 5%;
+    margin-left: 43%;
+    margin-right: auto;
+    max-width: 100%;
+    float: left;
 }

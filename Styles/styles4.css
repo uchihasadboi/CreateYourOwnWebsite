@@ -29,7 +29,7 @@ main {
 h1 {
    color:#8a2be2; 
    font-variant: small-caps; 
-   text-align: center;
+
    font-size: 300%;
    margin-right: .8em;
 }
@@ -88,4 +88,12 @@ a[href] {
 }
 #faq {
     margin-top: 2em;
+}
+#gif1 {
+    display: block;
+    width: 5%;
+    margin-left: 36%;
+    margin-right: auto;
+    max-width: 100%;
+    float: left;
 }
